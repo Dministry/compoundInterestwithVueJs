@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    
+}
+html{
+    font-family: 'Helvetica Neue', sans-serif Arial, Helvetica, sans-serif;
+}
+body {
+    background-image: linear-gradient(rgba(53, 240, 253, 0.267), rgb(53, 238, 161));
+    height: vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 16px;
+    transition: all 0.3s ease-in;
+
+    @media (max-width: 512px){
+        padding: 320px;
+        transition: all 0.3s ease-in;
+    }
+
+    @media (max-width: 360px){
+        padding: 16px;
+        transition: all 0.3s ease-in;
+    }
+}
+h1 {
+    text-align: center;
+    color: #000;
+    margin: 0 0 16px 0;
+}
+p {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+#container{
+    max-width: 480px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 64px;
+    box-shadow: 2px 2px 50px #111;
+    border-radius: 20px;
+    transition: all 0.3s ease-in;
+    @media (max-width: 512px){
+        padding: 32px;
+        transition: all 0.3s ease-in;
+    }
+    @media (max-width: 360px){
+        padding: 16px;
+        transition: all 0.3s ease-in;
+    }
+}
+label {
+    display: inline-block;
+    width: 25%;
+    min-width: 128px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+input, select {
+    display: inline-block;
+    background-color: #fff;
+    color: #888;
+    border-radius: 2px;
+    height: 56px;
+    width: 100%;
+    font-size: 24px;
+    padding: 0 16px;
+    margin-bottom: 24px;
+}
+input:focus {
+    background-color: #fff;
+    color: #684fc9;
+    border-color: #7659eb;
+    outline: 0;
+}
