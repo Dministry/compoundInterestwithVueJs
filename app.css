@@ -6,7 +6,7 @@ html{
     font-family: 'Helvetica Neue', sans-serif Arial, Helvetica, sans-serif;
 }
 body {
-    background-image: linear-gradient(rgba(53, 240, 253, 0.267), rgb(53, 238, 161));
+    background-image: linear-gradient(rgba(240, 240, 253, 0.267), rgb(240, 238, 161));
     height: vh;
     display: flex;
     align-items: center;
